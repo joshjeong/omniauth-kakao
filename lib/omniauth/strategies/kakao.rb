@@ -13,12 +13,13 @@ module OmniAuth
         :token_url => '/oauth/token',
       }
 
-      uid { raw_info['id'].to_s }
+      uid { raw_info['id'] }
 
       info do
         {
           'name' => raw_properties['nickname'],
           'image' => raw_properties['thumbnail_image'],
+          'email' => raw_info['kaccount_email']
         }
       end
 
