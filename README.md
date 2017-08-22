@@ -1,5 +1,8 @@
 # OmniAuth Kakao
 
+Modified @env["PATH_INFO"] in kakao.rb to be "api/v1/users/.."
+
+
 This is the OmniAuth strategy for authenticating to [Kakao](http://www.kakao.com/). To
 use it, you'll need to sign up for an REST API Key on the [Kakao Developers Page](http://developers.kakao.com). For more information, please refer to [Create New Application](https://developers.kakao.com/docs/restapi#시작하기-앱-생성) page.
 
